@@ -32,7 +32,38 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.counter {
+  background-color: rgb(227, 62, 227);
+  color: black;
+  padding: 20px;
+  border: 3px solid goldenrod;
+  border-radius: 20px;
+  width: 600px;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+.btn {
+  padding: 10px 15px;
+  border-radius: 12px;
+  border: 0;
+  font-size: 18px;
+}
+
+.increase {
+  color: white;
+  background-color: green;
+  margin: 5px;
+}
+
+.decrease {
+  color: white;
+  background-color: red;
+  margin: 5px;
 }
